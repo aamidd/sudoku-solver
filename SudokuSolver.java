@@ -57,7 +57,7 @@ public class SudokuSolver {
 		return false;
 	}
 	public void printSolvedTable() {
-		if (solve())
+		if (isSolved)
 			for (int i = 0; i < 9; i++) {
 				for (int j = 0; j < 9; j++)
 					System.out.printf("%d ", table[i][j]);
